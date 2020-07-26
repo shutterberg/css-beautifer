@@ -5,7 +5,7 @@
  1.Directly accepts filename from commandline.
  2.Takes file name from console.
 
-
+v 2.0
 
  Files
  1.commandlinereader.py  = Used to read file name from the command prompt. 
@@ -18,7 +18,7 @@
 
  4.command_line_beautifer.py = Beautifes css which is directly entered from the command line.
 
- 5.coconsole_beautifer.py = Beautifes css which is directly entered from the console.
+ 5.console_beautifer.py = Beautifes css which is directly entered from the console.
 
 
- Note:For comments refer coconsole_beautifer.py
+ Note:For comments refer console_beautifer.py
