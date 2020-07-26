@@ -5,7 +5,7 @@
  1.Directly accepts filename from commandline.
  2.Takes file name from console.
 
-v 1.0
+
 
  Files
  1.commandlinereader.py  = Used to read file name from the command prompt. 
@@ -22,11 +22,3 @@ v 1.0
 
 
  Note:For comments refer coconsole_beautifer.py
-
-
-v 2.0
-Changelog
-
-1.Files are now not displayed in console.
-2.File is directly changed using a temp file.
-3.All changes are visible in the same file
