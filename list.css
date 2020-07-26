@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+   background: #191919;
+  }
+  
+  /* Style For delete button / icon */
+  .del{
+    float: right;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+  }
+  .del:hover{
+    transform: rotate(360deg);
+  }
+
+  /* Include the padding and border in an element's total width and height */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 22px 35px 22px 40px;
+    list-style-type: none;
+    background: #fff;
+    color: black;
+    font-size: 18px;
+    border: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #eee;
+    color: black;
+  }
+
+  /* Style the header */
+  .header {
+    background-color: #393939;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 20px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  .done{
+      text-decoration: line-through red;
+  }
+
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 6px;
+    width: 25%;
+    background: royalblue;
+    color: #fff;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+ 
