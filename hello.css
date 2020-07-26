@@ -1,0 +1,15 @@
+.heading {
+    background-color:blueviolet;
+    color:white; 
+    margin: 10px ;
+    border:10px bold rebeccapurple;
+    padding:10px 20px;
+
+}
+.heading h1{
+    
+    color:black; 
+    margin: 10px ;
+    border:10px rebeccapurple;
+       font-size:100px;
+}
