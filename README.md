@@ -8,6 +8,7 @@
 
 
  Files
+ 
  1.commandlinereader.py  = Used to read file name from the command prompt. 
  Syntax:python commandlinereader.py filename.css 
  Prints "opening filename" if file is a css file.
@@ -22,3 +23,4 @@
 
 
  Note:For comments refer coconsole_beautifer.py
+ All txt,css files are for testing purposes.
